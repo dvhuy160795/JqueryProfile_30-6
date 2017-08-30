@@ -1,0 +1,13 @@
+{
+    "name": "huy/jquery-profile",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dvhuy160795",
+            "email": "dvhuy160795@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
