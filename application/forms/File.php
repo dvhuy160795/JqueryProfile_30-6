@@ -9,6 +9,7 @@ class Application_Form_File extends Zend_Form
         $userImg = new Zend_Form_Element_File('img');
         $userImg->setLabel('User Image')
                 ->setRequired(true)
+                ->setDestination(APPLICATION_PATH.'/../public/fileUpload')
                 ->addValidator('NotEmpty')
                     ->getValidator('NotEmpty')
                     ->setMessage('Image user not null!!');

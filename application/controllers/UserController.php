@@ -60,7 +60,7 @@ class UserController extends Zend_Controller_Action
         $isValidForm = $userForm->isValid($this->getRequest()->getPost());
         $filteredUserForm = $userForm->getValues();
         if (!$userPostForm) {
-            return $errorMessages;
+            return $this->_helper->json($errorMessages);
         }
         if (!$isValidForm){
             $this->setError400($userForm,$errorMessages);

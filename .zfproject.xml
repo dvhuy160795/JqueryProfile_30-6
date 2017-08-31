@@ -20,6 +20,10 @@
         <controllerFile controllerName="PostForm">
           <actionMethod actionName="index"/>
         </controllerFile>
+        <controllerFile controllerName="File">
+          <actionMethod actionName="index"/>
+          <actionMethod actionName="add"/>
+        </controllerFile>
       </controllersDirectory>
       <formsDirectory>
         <formFile formName="User"/>
@@ -51,6 +55,12 @@
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="User">
             <viewScriptFile forActionName="edit"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="File">
+            <viewScriptFile forActionName="index"/>
+          </viewControllerScriptsDirectory>
+          <viewControllerScriptsDirectory forControllerName="File">
+            <viewScriptFile forActionName="add"/>
           </viewControllerScriptsDirectory>
         </viewScriptsDirectory>
         <viewHelpersDirectory/>
