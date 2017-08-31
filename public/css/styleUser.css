@@ -1,0 +1,10 @@
+#control,#view{
+    border: thin solid blueviolet;
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+}
+.form-table,.list-table{
+    width: 100%;
+}
